@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Resume | Web Technology Assignment</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    /* rem unit */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header-area {
+    background-color: #11494a;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 2.5rem;
+}
+
+.tagline {
+    font-size: 1.2rem;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 70%;
+    /* percentage unit */
+    max-width: 200px;
+    /* px unit */
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+/* Sections */
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* Table */
+table {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.footer-area {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+
+.navigation{
+    display: flex;
+}
+    </style>
+  
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="container-fluid header-area bg-primary bg-gradient">
+        <div class="container">
+            <h1 class="main-title fw-bold">Arya Deshmukh</h1>
+            <p class="tagline lead">Aspiring Web Developer</p>
+        </div>
+    </header>
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">MyResume</a>
+            <div class="navigation">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container my-5">
+
+    <!-- ABOUT -->
+    <section id="about" class="mb-4">
+        <div class="card shadow border-0">
+            <div class="card-body text-center">
+                <h2 class="text-primary">About Me</h2>
+             
+                <p>
+                    I am a Computer Science student with interest in web development,
+                    UI design, and modern front-end technologies.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="mb-4">
+        <div class="card shadow border-0">
+            <div class="card-body">
+                <h2 class="text-success text-center mb-3">Education</h2>
+
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover text-center">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Qualification</th>
+                                <th>Institute</th>
+                                <th>Year</th>
+                                <th>CGPA</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>B.E / B.Tech</td>
+                                <td>Aissms College</td>
+                                <td>2027</td>
+                                <td><span class="badge bg-success">9.5</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="mb-4">
+        <div class="card shadow border-0">
+            <div class="card-body">
+                <h2 class="text-warning text-center mb-3">Skills</h2>
+
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover text-center align-middle">
+
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Category</th>
+                                <th>Skills</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr class="table-primary">
+                                <td><strong>Technical Skills</strong></td>
+                                <td>HTML5, CSS3, Bootstrap, JavaScript</td>
+                            </tr>
+
+                            <tr class="table-success">
+                                <td><strong>Soft Skills</strong></td>
+                                <td>Communication, Team Work, Problem Solving</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="mb-4">
+        <div class="card shadow border-0">
+            <div class="card-body">
+                <h2 class="text-primary text-center mb-4">Contact Me</h2>
+
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                    </div>
+
+                    <div class="text-center">
+                        <button class="btn btn-primary px-4">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+    <!-- Footer -->
+    <footer class="footer-area">
+        <p>&copy; 2026 Student Name | Web Technology Assignment</p>
+    </footer>
+</body>
+
+</html>
