@@ -36,6 +36,32 @@ Login with your Google account.
    ```text
    CREATE
    ```
+ ---
+ 
+ # STEP 3 — Enable App Engine
+
+Search:
+
+```text
+App Engine
+```
+
+Open App Engine.
+
+Click:
+
+```text
+Create Application
+```
+
+Choose region:
+
+```text
+asia-south1
+```
+
+---
+   
 # STEP — Enable Required APIs
 
 Before creating the App Engine application, enable the required Google Cloud APIs.
@@ -107,29 +133,6 @@ SAVE
 Wait a few minutes for permissions to apply.
 ---
 
-# STEP 3 — Enable App Engine
-
-Search:
-
-```text
-App Engine
-```
-
-Open App Engine.
-
-Click:
-
-```text
-Create Application
-```
-
-Choose region:
-
-```text
-asia-south1
-```
-
----
 
 # STEP 4 — Open Cloud Shell
 
